@@ -4,6 +4,7 @@ public class Carnivore extends Animal {
 
     private double maxFoodSize = 0.0;
 
+    //TODO clean up white spaces below
     public Carnivore(String name) {
         super(name);
 

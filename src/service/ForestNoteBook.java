@@ -114,6 +114,7 @@ public class ForestNoteBook {
 
     public void printNoteBook(){
         System.out.println("All animals list:");
+        //TODO use repaet method instead of hard coding -> System.out.println(">".repeat(5).concat("<".repeat(5)));
         System.out.println(">>>>>>><<<<<<<<<<<<<");
         animals.forEach(System.out::println);
         System.out.println("All plants list:");

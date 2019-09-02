@@ -11,6 +11,7 @@ import java.util.HashSet;
 import java.util.Set;
 import java.util.concurrent.Callable;
 
+//TODO too much space think about it and clean it up because this isn't clean code
 public class ForestBookApp {
 
     public static void main(String[] args) {

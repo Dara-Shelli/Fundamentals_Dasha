@@ -27,6 +27,14 @@ public class Herbivore extends Animal {
         this.plantDiet = plantDiet;
     }
 
+    //TODO this approach would've been better
+    // if (!plantDiet.contains(plant)) {
+    //                if (plant == null) {
+    //                    return;
+    //                }
+    //                plantDiet.add(plant);
+    //
+    //            }
         public void addPlantToDiet(Plant plant){
             if(plant != null && !plantDiet.contains(plant)){
                 plantDiet.add(plant);
